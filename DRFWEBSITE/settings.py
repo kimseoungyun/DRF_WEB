@@ -49,7 +49,7 @@ SECRET_KEY = get_secret("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*', '127.0.0.1', 'localhost', '172.31.30.214', 'ec2-3-104-188-98.ap-southeast-2.compute.amazonaws.com']
+ALLOWED_HOSTS = ['*', '127.0.0.1', 'localhost', '172.31.30.214', 'ec2-3-104-188-98.ap-southeast-2.compute.amazonaws.com', 'mbti-assist.site']
 
 
 # Application definition
