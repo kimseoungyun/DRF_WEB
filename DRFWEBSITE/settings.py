@@ -51,8 +51,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*',
                 '127.0.0.1',
-                'localhost',
-                '172.31.30.214', 
+                'localhost', 
                 '.ap-southeast-2.compute.amazonaws.com', 
                 '.mbti-assist.site',
                 '.ap-northeast-2.compute.amazonaws.com'
