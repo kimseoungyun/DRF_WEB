@@ -3,7 +3,7 @@ Description=uWSGI service
 After=syslog.target
 
 [Service]
-ExecStart=/home/ubuntu/DRF_WEB_venv/bin/uwsgi -i /home/ubuntu/DRF_WEB/.config/uwsgi/DRFWEBSITE.ini
+ExecStart=/home/ubuntu/drf_venv/bin/uwsgi -i /home/ubuntu/DRF_WEB/.config/uwsgi/DRFWEBSITE.ini
 
 Restart=always
 KillSignal=SIGQUIT
