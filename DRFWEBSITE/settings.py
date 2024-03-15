@@ -54,7 +54,7 @@ ALLOWED_HOSTS = ['*',
                 'localhost', 
                 '.ap-southeast-2.compute.amazonaws.com', 
                 '.mbti-assist.site',
-                '.ap-northeast-2.compute.amazonaws.com'
+                '.ap-northeast-2.compute.amazonaws.com',
                 ]
 
 
